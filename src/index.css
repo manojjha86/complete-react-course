@@ -1,0 +1,15 @@
+body {
+    background: #00b09b;
+    background: -webkit-linear-gradient(to right, #00b09b, #96c93d);
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    min-height: 100vh;
+    padding-top: 20px;
+  }
+  
+  .text-gray {
+    color: #aaa;
+  }
+
+  .badge-margin-left-240{
+    margin-left: 240px;
+  }
