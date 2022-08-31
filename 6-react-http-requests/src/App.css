@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&family=VT323&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.page-header{
+  padding: 20px 0px;
+  text-align: right;
+  margin: 0px 100px;
+}
+
+.btn{
+  padding: 7px 15px;
+  margin: 0px 3px;
+  border: none;
+  border-radius: 2px;
+  color: white;
+}
+
+.btn-success{
+  background-color: #2ECC71;
+}
+
+.btn-primary{
+  background-color: #f5ba1a;
+}
+.btn-danger{
+  background-color: #e62020;
+}
+.btn-normal{
+  background-color: #2980B9;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

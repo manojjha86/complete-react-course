@@ -1,0 +1,77 @@
+.modal {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 50px;
+  border-radius: 10px;
+  border-top: #2ECC71 6px solid;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 50%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+
+/*Form CSS*/
+.user-form{
+  border: #fefefe 1px solid;
+}
+input[type="text"], input[type="password"], input[type="date"], select{
+  width: 46%;
+  height: 35px;
+  margin: 5px 5px;
+  border-radius: 3px;
+  font-size: 16px;
+  border: #eee 2px solid;
+  padding: 3px 10px;
+}
+
+input[type="email"]{
+  width: 94%;
+  height: 35px;
+  margin: 5px 5px;
+  border-radius: 3px;
+  border: #eee 2px solid;
+  font-size: 16px;
+  padding: 3px 10px;
+}
+
+.gender-radio-button{
+  margin-top: 10px;
+}
+.add-user-button{
+  width: 95%;
+  height:35px;
+  border: none;
+  margin-top: 20px;
+  background-color: #2ECC71;
+  color: white;
+}
